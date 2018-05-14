@@ -284,12 +284,13 @@
 		"delta_item_end_y"		"60"
 		"PositiveColor"			"Garm3nHUDRealGreen"
 		"NegativeColor"			"Garm3nHUDRed"
-		"delta_lifetime"		"0"
+		"delta_lifetime"		"0.8"
 		"delta_item_font"		"Garm3nFontSmaller"
 		
 		if_match
 		{
 			"xpos"				"c-110"
+			"ypos"				"-27"	
 			"zpos"				"5"
 		}
 		
@@ -312,11 +313,10 @@
 			
 			if_match
 			{
-				"ypos"			"1"
 				"font"			"Garm3nFontTiny"
 				"textAlignment"	"center"
 			}
-		}	
+		}
 	}
 	
 	"TeamStatus"
